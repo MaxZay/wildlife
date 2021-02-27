@@ -116,3 +116,30 @@ a:hover{
 .nav__sign:hover{
     background-color: #CD6326;
 }
+
+.survival{
+    width: 274px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 199px;
+    margin-left: 120px;
+}
+
+.survival__head{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326; 
+}
+
+.survival__text{
+
+}
+
+.survival__donate{
+
+}
