@@ -6,6 +6,9 @@
     left: 0px;
     background: #02160B;
 }
+.head__all div{
+    user-select: none;
+}
 
 .head__content{
     width: 1440px;
@@ -15,6 +18,7 @@
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
+    position: relative;
 }
 
 header{
@@ -43,7 +47,6 @@ h1{
     text-transform: uppercase;  
     margin-top: 0px;
     line-height: 60px;
-    user-select: none;
 }
 
 .icon{
@@ -87,7 +90,6 @@ ul, li{
 
 a:hover{
     color: #CD6326;
-    user-select: none;
     cursor: pointer;
 }
 
@@ -122,11 +124,15 @@ a:hover{
     height: 338px;
     display: flex;
     flex-direction: column;
-    margin-top: 199px;
-    margin-left: 120px;
+    position: absolute;
+    top:201px;
+    left: 120px;
+    justify-content: space-between;
 }
 
 .survival__head{
+    width: 199px;
+    height: 72px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -134,12 +140,41 @@ a:hover{
     line-height: 72px;
     letter-spacing: 2px;
     color: #CD6326; 
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.survival__head__text{
+    margin-top: 0px;
 }
 
 .survival__text{
-
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+    width: 274px;
+    height: 108px;
 }
 
-.survival__donate{
-
+.survival__donate button{
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    border: 0px;
 }
