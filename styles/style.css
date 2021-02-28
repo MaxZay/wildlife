@@ -125,27 +125,27 @@ a:hover{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top:201px;
+    top:199px;
     left: 120px;
     justify-content: space-between;
 }
 
 .survival__head{
     width: 199px;
-    height: 72px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 72px;
-    letter-spacing: 2px;
-    color: #CD6326; 
+    height: 72px; 
     padding-top: 0px;
     display: inline-block;
 }
 
 .survival__head__text{
     margin-top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
 }
 
 .survival__text{
@@ -159,6 +159,10 @@ a:hover{
     color: #F7F7F7;
     width: 274px;
     height: 108px;
+}
+
+.survival__text p{
+    margin-top: 0px;
 }
 
 .survival__donate button{
