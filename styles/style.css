@@ -241,8 +241,7 @@ a:hover{
     user-select: none;
 }
 
-.footer__nav a{
-
+.footer__a{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -250,6 +249,7 @@ a:hover{
     line-height: 60px;
     color: #F7F7F7;
     margin-top: 0px;
+    user-select: none;
 }
 
 .footer__nav a:hover{
@@ -264,5 +264,36 @@ a:hover{
 
 .footer__nav{
     display: flex;
-    
+    width: 840px;
+    height: 100%;
+    margin-right: 120px;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.footer__nav__list{
+    width: 480px;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-inline-start: 0px;
+}
+
+.footer__nav__icons{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: auto;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+}
+
+.footer__nav__icons li{
+    user-select: none;
+    margin-top: auto;
+    margin-bottom: auto;
 }
